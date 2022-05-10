@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-image: url(10b50d44235a56ac279f8ce82cfa7e4f.jpg);
+  background-size: cover;
+}
+
+main{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+/*Bannière du haut*/
+
+header {
+  color: white;
+  background-color:black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav img {
+  width: 159px;
+  height: 57px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+nav ul {
+  display:flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-basis: 40%;
+  padding-left: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all ease 0.5s;
+}
+
+
+
+aside {
+  top: 10%;
+  position: sticky;
+  margin-left: 140px;
+  background-color: black;
+  border-radius: 15px;
+  max-height: 20em;
+}
+
+
+aside ul {
+  list-style-type: none;
+  padding-left: 20px;
+  padding-right: 20px; 
+}
+
+
+aside li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 178px;
+}
+
+aside a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+aside a:hover {
+  background-color: rgb(0, 0, 0);
+  transition: all ease 0.5s;
+}
+
+
+div {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border-radius: 5px 5px 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div p, div li {
+  font-size: 17pt;
+}
+
+body{
+  padding: 50px;
+  background-image:url(10b50d44235a56ac279f8ce82cfa7e4f.jpg) ;
+  background-size:cover;
+}
+
+
+
+
+header{
+  background-color:rgba(30, 163, 216, 0.795);
+   padding: 10px;
+}
+
+
+section{
+  background-color:rgba(30, 163, 216, 0.795);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+aside:first-of-type{
+  background-color:rgba(30, 163, 216, 0.795);
+  padding: 10px;
+}
+
+
+aside{
+  
+  background-color:rgba(30, 163, 216, 0.795);
+  padding: 10px;
+}
+
+
+footer{
+  background-color:rgba(30, 163, 216, 0.795);
+  border-radius: 15px;
+  padding: 10px;
+}
+
+tr:first-of-type{
+  background-color: green;
+}
+th,td{
+border: 1px solid black;
+padding-left: 10px;
+padding-right: 10px;
+border-color: yellow;
+}
+table{
+  border-collapse: collapse;
+  width: 300px;
+  margin-bottom: 20px;
+}
+img:hover {
+  opacity: 1;
+}
+
+a:first-of-type:hover{
+   color: rgba(30, 163, 216, 0.795);
+
+
+}
